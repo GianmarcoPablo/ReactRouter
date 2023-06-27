@@ -3,8 +3,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Layout from './components/Layout'
+import ErroPage from './components/ErroPage'
 import NuevoCliente,{action as nuevoClienteAction} from './pages/NuevoCliente'
 import Index,{loader as clientesLoader} from './pages/Index'
+import Hola from './components/Hola'
 
 const router = createBrowserRouter([
   {
@@ -14,11 +16,17 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Index/>,
-        loader: clientesLoader
+        loader: clientesLoader,
+        errorElement: <ErroPage/>
       },
       {
         path: "/clientes/nuevo",
         element: <NuevoCliente/>,
+        action: nuevoClienteAction
+      },
+      {
+        path: "/ejemplo/nuevo",
+        element: <Hola/>,
         action: nuevoClienteAction
       },
       

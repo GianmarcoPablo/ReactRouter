@@ -1,0 +1,71 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "telefono": 102013313,
+      "email": "juan@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 2,
+      "nombre": "Karen",
+      "telefono": 138198313,
+      "email": "karen@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 3,
+      "nombre": "Josue",
+      "telefono": 31983913,
+      "email": "josue@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel",
+      "telefono": 319381983,
+      "email": "miguel@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro",
+      "telefono": 1398198938,
+      "email": "pedro@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "nombre": "Gian Marco",
+      "empresa": "Nodejs",
+      "email": "correo@correo.com",
+      "telefono": "991128721",
+      "notas": "eccomerce para coneros",
+      "id": 6
+    },
+    {
+      "nombre": "Gian Marco",
+      "empresa": "Nodejs",
+      "email": "gianmarcop58@gmail.com",
+      "telefono": "991128721",
+      "notas": "Eccomerce para coneros",
+      "id": 7
+    },
+    {
+      "nombre": "Pablo",
+      "empresa": "Vercel",
+      "email": "hola@hola.com",
+      "telefono": "54721841514",
+      "notas": "KKNAERO",
+      "id": 8
+    },
+    {
+      "nombre": "DIEGO",
+      "empresa": "Nodejs",
+      "email": "correo@correo.com",
+      "telefono": "991128721",
+      "notas": "SSISISIS",
+      "id": 9
+    }
+  ]
+}
